@@ -27,7 +27,7 @@ body {
   font-size: 18px;
 }
 
-section {
+main {
   width: 450px;
   background-color: var(--card-bg-transparent);
   display: flex;
