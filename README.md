@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/a-lamloum/nft-preview-card-component-main)
-- Live Site URL: [Add live site URL here](https://a-lamloum.github.io/nft-preview-card-component-main/)
+- Solution URL: [ solution URL here](https://www.frontendmentor.io/solutions/nft-preview-card-component-main-ERr3azZFo0)
+- Live Site URL: [ live site URL here](https://a-lamloum.github.io/nft-preview-card-component-main/)
 
 ## My process
 
@@ -103,12 +103,6 @@ But the good part is I learned how to create a fading overlay effect to an image
 }
 
 ```
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 

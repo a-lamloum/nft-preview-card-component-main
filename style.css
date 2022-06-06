@@ -112,7 +112,7 @@ p {
   text-align: center;
 }
 
-.container h2 {
+.container h1 {
   color: var(--White);
   font-size: 21px;
   font-weight: 400;
@@ -132,12 +132,12 @@ p {
   align-items: center;
 }
 .card__crypto-details img,
-h5 {
+p {
   display: inline-block;
   margin: 10px 0 25px 0;
 }
 
-.card__crypto-eth {
+.card__crypto-details .card__crypto-eth {
   color: var(--cyan);
 }
 .card__crypto-time {
@@ -150,7 +150,7 @@ h5 {
 }
 .card__auth {
   display: flex;
-  margin: 5px 0;
+  margin: 18px 0 20px;
   gap: 10px;
   align-items: center;
 }
@@ -160,7 +160,9 @@ h5 {
   border: 1px solid var(--White);
   border-radius: 50%;
 }
-
+.card__auth  p {
+    margin: auto 0;
+}
 .card__auth span {
   color: var(--White);
 }
