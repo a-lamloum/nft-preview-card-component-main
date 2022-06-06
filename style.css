@@ -99,6 +99,7 @@ p {
 }
 .container__img:hover .overlay {
   opacity: 1;
+  cursor: pointer;
 }
 .container__img .card__img-overlay {
   width: 30%;
