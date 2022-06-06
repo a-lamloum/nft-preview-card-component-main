@@ -1,0 +1,170 @@
+/* import google font  */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+:root {
+  /* primary colors  */
+  --soft-blue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+
+  /* Neutral  */
+  --bg-color: #0e192d;
+  --card-bg-transparent: #0d182c;
+  --card-bg-Darker: #0d1729;
+  --main-BG: hsl(217, 54%, 11%);
+  --card-BG: hsl(216, 50%, 16%);
+  --line: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background: var(--bg-color);
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+}
+
+section {
+  width: 450px;
+  background-color: var(--card-bg-transparent);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem auto;
+  border-radius: 3rem;
+  padding: 2rem 1rem;
+}
+.card__shadow {
+  background-color: var(--card-bg-Darker);
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.card {
+  width: 355px;
+  background-color: var(--card-BG);
+  height: 96%;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: -20px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+.container {
+  width: 85%;
+  height: 90%;
+  margin: auto;
+}
+.container h2,
+p {
+  margin: 20px 0;
+}
+.card__img {
+  width: 100%;
+  border-radius: 1rem;
+  margin-top: 10px;
+}
+.container h2 {
+  color: var(--White);
+  font-size: 21px;
+  font-weight: 400;
+}
+.container p {
+  color: var(--soft-blue);
+  font-size: 18px;
+  font-weight: 300;
+}
+.card__crypto {
+  display: flex;
+  justify-content: space-between;
+}
+.card__crypto-details {
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+}
+.card__crypto-details img,
+h5 {
+  display: inline-block;
+  margin: 10px 0 25px 0;
+}
+
+.card__crypto-eth {
+  color: var(--cyan);
+}
+.card__crypto-time {
+  color: var(--soft-blue);
+}
+
+.container hr {
+  border: 0.1px solid var(--line);
+  margin: 0;
+}
+.card__auth {
+  display: flex;
+  margin: 5px 0;
+  gap: 10px;
+  align-items: center;
+}
+.card__auth img {
+  width: 30px;
+  height: 30px;
+  border: 1px solid var(--White);
+  border-radius: 50%;
+}
+
+.card__auth span {
+  color: var(--White);
+}
+
+footer {
+    width:100%;
+    margin: 2rem auto;
+    text-align: center;
+}
+.attribution {
+    font-weight: 300;
+    color: var(--soft-blue);
+    font-size: 14px;
+}
+.attribution a {
+    color: var(--White);
+    text-decoration: none;
+}
+
+
+/* ## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px */
+
+/* MOBILE DEVICES  */
+
+@media screen and (max-width: 375px) {
+  section {
+    width: 90%;
+    padding: 0;
+    margin: 4rem auto;
+  }
+  .card__shadow {
+    width: 90%;
+    padding: 0;
+  }
+  .card {
+    width: 90%;
+  }
+  .container p {
+    font-size: 14px;
+    font-weight: 300;
+  }
+}
