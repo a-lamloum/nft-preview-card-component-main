@@ -68,10 +68,49 @@ p {
   margin: 20px 0;
 }
 .card__img {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  width: 100%;
+  border-radius: 1rem;
+}
+.container__img {
+  position: relative;
   width: 100%;
   border-radius: 1rem;
   margin-top: 10px;
+  box-sizing: border-box;
 }
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 98.5%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: hsla(195, 100%, 36%, 0.4);
+  border-radius: 1rem;
+}
+.container__img:hover .overlay {
+  opacity: 1;
+}
+.container__img .card__img-overlay {
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 .container h2 {
   color: var(--White);
   font-size: 21px;
@@ -126,20 +165,19 @@ h5 {
 }
 
 footer {
-    width:100%;
-    margin: 2rem auto;
-    text-align: center;
+  width: 100%;
+  margin: 2rem auto;
+  text-align: center;
 }
 .attribution {
-    font-weight: 300;
-    color: var(--soft-blue);
-    font-size: 14px;
+  font-weight: 300;
+  color: var(--soft-blue);
+  font-size: 14px;
 }
 .attribution a {
-    color: var(--White);
-    text-decoration: none;
+  color: var(--White);
+  text-decoration: none;
 }
-
 
 /* ## Layout
 
