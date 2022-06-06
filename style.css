@@ -36,6 +36,7 @@ main {
   margin: 4rem auto;
   border-radius: 3rem;
   padding: 2rem 1rem;
+  transition: all 0.35s ease;
 }
 .card__shadow {
   background-color: var(--card-bg-Darker);
@@ -139,6 +140,7 @@ p {
 
 .card__crypto-details .card__crypto-eth {
   color: var(--cyan);
+  font-weight: 600;
 }
 .card__crypto-time {
   color: var(--soft-blue);
@@ -168,7 +170,7 @@ p {
 }
 
 footer {
-  width: 100%;
+  width: 65%;
   margin: 2rem auto;
   text-align: center;
 }
@@ -191,9 +193,9 @@ The designs were created to the following widths:
 
 /* MOBILE DEVICES  */
 
-@media screen and (max-width: 375px) {
-  section {
-    width: 90%;
+@media screen and (max-width: 600px) {
+  main {
+    width: 80%;
     padding: 0;
     margin: 4rem auto;
   }
@@ -202,7 +204,7 @@ The designs were created to the following widths:
     padding: 0;
   }
   .card {
-    width: 90%;
+    width: 95%;
   }
   .container p {
     font-size: 14px;
