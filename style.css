@@ -197,7 +197,7 @@ The designs were created to the following widths:
   main {
     width: 80%;
     padding: 0;
-    margin: 4rem auto;
+    margin: 2rem auto;
   }
   .card__shadow {
     width: 90%;
